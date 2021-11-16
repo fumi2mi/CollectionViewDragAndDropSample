@@ -57,8 +57,8 @@ extension ViewController: UICollectionViewDataSource {
             cell.label.text = text
             cell.backgroundColor = .green
         case Model.availableToDropAtEnd:
-            cell.label.text = "仮"
-            cell.backgroundColor = .lightGray
+            cell.label.text = ""
+            cell.backgroundColor = .clear
         }
         return cell
     }
