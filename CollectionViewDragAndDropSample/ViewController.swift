@@ -14,7 +14,7 @@ enum Model {
 
 class ViewController: UIViewController {
     @IBOutlet private weak var collectionView: UICollectionView!
-    private var data = [["0A", "0B", "0C", "0D", "0E"],["1A", "2B"],["2A", "2C", "3C"]]
+    private var data = [["0A", "0B", "0C", "0D", "0E"],["1A", "1B"],["2A", "2B", "2C"]]
         .map { $0.map { return Model.simple(text: $0) }
     }
 
@@ -57,8 +57,8 @@ extension ViewController: UICollectionViewDataSource {
             cell.label.text = text
             cell.backgroundColor = .green
         case Model.availableToDropAtEnd:
-            cell.label.text = ""
-            cell.backgroundColor = .clear
+            cell.label.text = "仮"
+            cell.backgroundColor = .lightGray
         }
         return cell
     }
