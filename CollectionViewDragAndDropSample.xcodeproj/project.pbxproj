@@ -41,6 +41,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B36D81F327448C9100F6E8D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B383C388273FDFEF00FBD621 /* Main.storyboard */,
+				B383C38D273FDFF000FBD621 /* LaunchScreen.storyboard */,
+				B383C398273FFC5300FBD621 /* CollectionReusableView.swift */,
+				B383C396273FEAE000FBD621 /* CollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B36D81F427448CB200F6E8D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B383C386273FDFEF00FBD621 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		B383C376273FDFEF00FBD621 = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +79,11 @@
 		B383C381273FDFEF00FBD621 /* CollectionViewDragAndDropSample */ = {
 			isa = PBXGroup;
 			children = (
+				B36D81F427448CB200F6E8D5 /* Controller */,
+				B36D81F327448C9100F6E8D5 /* View */,
 				B383C382273FDFEF00FBD621 /* AppDelegate.swift */,
 				B383C384273FDFEF00FBD621 /* SceneDelegate.swift */,
-				B383C398273FFC5300FBD621 /* CollectionReusableView.swift */,
-				B383C396273FEAE000FBD621 /* CollectionViewCell.swift */,
-				B383C386273FDFEF00FBD621 /* ViewController.swift */,
-				B383C388273FDFEF00FBD621 /* Main.storyboard */,
 				B383C38B273FDFF000FBD621 /* Assets.xcassets */,
-				B383C38D273FDFF000FBD621 /* LaunchScreen.storyboard */,
 				B383C390273FDFF000FBD621 /* Info.plist */,
 			);
 			path = CollectionViewDragAndDropSample;
